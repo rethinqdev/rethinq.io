@@ -1,0 +1,11 @@
+:root {
+  --baseFontSize: 16px;
+  --baseLineHeight: 1.333334;
+  --bodyFontFamily: "Roboto";
+  --headingFontFamily: "Montserrat";
+
+  --navbarHeight: 5rem;
+  --containerWidth: 70rem;
+
+  --primaryColor: rgba(244, 37, 33, 100);
+}
