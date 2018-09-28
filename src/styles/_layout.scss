@@ -1,0 +1,28 @@
+// Layout Styles
+
+// Inherit box-sizing
+// - https://github.com/AllThingsSmitty/css-protips#inherit-box-sizing
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// Vertically center application container using CSS Grid
+// - https://github.com/AllThingsSmitty/css-protips#inherit-box-sizing
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
