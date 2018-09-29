@@ -13,7 +13,7 @@ html {
 }
 
 // Vertically center application container using CSS Grid
-// - https://github.com/AllThingsSmitty/css-protips#inherit-box-sizing
+// - https://github.com/AllThingsSmitty/css-protips#vertically-center-anything
 html,
 body {
   height: 100%;
@@ -23,6 +23,4 @@ body {
 body {
   display: grid;
   height: 100vh;
-  margin: 0;
-  place-items: center center;
 }
